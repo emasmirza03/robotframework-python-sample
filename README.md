@@ -6,7 +6,6 @@ Each folder is organized by the specific Robot Framework library used, making it
 
 ![Robot Framework](https://img.shields.io/badge/Robot%20Framework-Automation-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 
@@ -141,17 +140,3 @@ After running a test suite, you will get three main output files:
 * `output.xml` — raw execution data (used for integrations like Jenkins)
 
 ---
-
-## 🤝 Contributions
-
-Feel free to fork and contribute new examples, improvements, or support for other Robot Framework libraries! If you have a cool sample test, feel free to submit a pull request.
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
----
-
-Happy Testing! ✨
