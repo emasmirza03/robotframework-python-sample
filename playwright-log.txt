@@ -1,0 +1,206 @@
+{"level":30,"time":"2025-07-10T04:54:26.041Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Listening on 59119"}
+(node:42118) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-10T04:54:27.057Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:27.656Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-07-10T04:54:27.657Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:27.657Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-10T04:54:27.665Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:27.665Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-10T04:54:27.684Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active context"}
+{"level":30,"time":"2025-07-10T04:54:28.078Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-10T04:54:28.079Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active page"}
+{"level":30,"time":"2025-07-10T04:54:35.972Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:35.976Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:35.976Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Signup / Login in page."}
+{"level":30,"time":"2025-07-10T04:54:39.174Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:39.179Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:39.179Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-email\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:39.382Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:39.385Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:39.385Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-password\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:39.395Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:39.399Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:39.399Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=button[data-qa=\"login-button\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:40.189Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:40.193Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:40.193Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Logout in page."}
+{"level":30,"time":"2025-07-10T04:54:40.304Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element text=Logout containing  Logout"}
+{"level":30,"time":"2025-07-10T04:54:40.304Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:40.307Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-07-10T04:54:40.318Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Removed page=75431c68-d9ea-4748-b6c4-4bd35a315321 from context=042e63a7-4825-4b8d-8da4-09ba5b31e4da page stack"}
+{"level":30,"time":"2025-07-10T04:54:40.403Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-10T04:54:40.407Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:40.407Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:40.408Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:40.408Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:40.411Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:40.642Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-07-10T04:54:40.642Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:40.642Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-10T04:54:40.649Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:40.649Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-10T04:54:40.653Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active context"}
+{"level":30,"time":"2025-07-10T04:54:40.966Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-10T04:54:40.966Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active page"}
+{"level":30,"time":"2025-07-10T04:54:42.317Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:42.319Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:42.319Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Signup / Login in page."}
+{"level":30,"time":"2025-07-10T04:54:43.296Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:43.305Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:43.305Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-email\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:43.381Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:43.383Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:43.383Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-password\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:43.386Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:43.387Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:43.387Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=button[data-qa=\"login-button\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:43.700Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:43.705Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-10T04:54:43.706Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Your email or password is incorrect! in page."}
+{"level":30,"time":"2025-07-10T04:54:43.785Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-10T04:54:43.786Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-07-10T04:54:43.795Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Removed page=492b4c18-d4b5-4975-b640-84c44a1aeb63 from context=bc7e895a-d73c-49b1-bf11-24f983c2c154 page stack"}
+{"level":30,"time":"2025-07-10T04:54:43.867Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-10T04:54:43.869Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.869Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-10T04:54:43.872Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.872Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.876Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.876Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.877Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.877Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:43.879Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:44.113Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-07-10T04:54:44.113Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-10T04:54:44.113Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-10T04:54:44.119Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:44.119Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-10T04:54:44.125Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active context"}
+{"level":30,"time":"2025-07-10T04:54:44.298Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-10T04:54:44.298Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Changed active page"}
+{"level":30,"time":"2025-07-10T04:54:46.375Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-10T04:54:46.378Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:46.378Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Signup / Login in page."}
+{"level":30,"time":"2025-07-10T04:54:47.710Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:47.712Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:47.712Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-email\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:47.951Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:47.953Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:47.953Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input[data-qa=\"login-password\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:47.956Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:47.958Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:47.958Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=button[data-qa=\"login-button\"] in page."}
+{"level":30,"time":"2025-07-10T04:54:48.693Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:48.699Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:48.699Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with text=Products in page."}
+{"level":30,"time":"2025-07-10T04:54:51.427Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:51.431Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:51.431Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=input#search_product in page."}
+{"level":30,"time":"2025-07-10T04:54:51.518Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-07-10T04:54:51.520Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-07-10T04:54:51.520Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with css=button#submit_search in page."}
+{"level":30,"time":"2025-07-10T04:54:54.572Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method click"}
+{"level":30,"time":"2025-07-10T04:54:54.578Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-07-10T04:54:54.578Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is disabled, return Locator: xpath=//div[@class=\"productinfo text-center\"]/p in page."}
+{"level":30,"time":"2025-07-10T04:54:54.578Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-07-10T04:54:54.656Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Found 6 elements."}
+{"level":30,"time":"2025-07-10T04:54:54.656Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getElements"}
+{"level":30,"time":"2025-07-10T04:54:54.658Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.658Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=0 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.666Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=0 containing Men Tshirt"}
+{"level":30,"time":"2025-07-10T04:54:54.666Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.669Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.669Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=1 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.672Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=1 containing Pure Cotton V-Neck T-Shirt"}
+{"level":30,"time":"2025-07-10T04:54:54.672Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.674Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.674Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=2 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.677Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=2 containing Green Side Placket Detail T-Shirt"}
+{"level":30,"time":"2025-07-10T04:54:54.677Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.679Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.679Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=3 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.682Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=3 containing Premium Polo T-Shirts"}
+{"level":30,"time":"2025-07-10T04:54:54.682Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.683Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.683Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=4 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.687Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=4 containing Pure Cotton Neon Green Tshirt"}
+{"level":30,"time":"2025-07-10T04:54:54.687Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.691Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.691Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"productinfo text-center\"]/p >> nth=5 in page."}
+{"level":30,"time":"2025-07-10T04:54:54.698Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Retrieved text for element xpath=//div[@class=\"productinfo text-center\"]/p >> nth=5 containing GRAPHIC DESIGN MEN T SHIRT - BLUE"}
+{"level":30,"time":"2025-07-10T04:54:54.698Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-10T04:54:54.704Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-07-10T04:54:54.711Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Removed page=e82c20f5-2973-4fb1-a0f7-57e431c1027a from context=a1112f43-e2f5-4c5a-86fb-714d63097478 page stack"}
+{"level":30,"time":"2025-07-10T04:54:54.785Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-10T04:54:54.788Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:54.788Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/emas.mirza/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-10T04:54:54.789Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:54.790Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-10T04:54:54.808Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-10T04:54:54.808Z","pid":42118,"hostname":"MacBook-Pro-Emas.local","msg":"End of node method closeAllBrowsers"}
