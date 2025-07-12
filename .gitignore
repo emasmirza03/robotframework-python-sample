@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# robotframework
+output.xml
+log.html
+report.html
+
+.DS_Store
+
+playwright-log.txt
+
