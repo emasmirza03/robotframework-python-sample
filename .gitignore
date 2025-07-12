@@ -213,3 +213,5 @@ report.html
 
 .DS_Store
 
+playwright-log.txt
+
